@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Hey Reader </title>
+    <style>
+        
+        body{
+        background-image:url(assets/hunger2.jpg);
+        padding:inherit;
+	    margin: 0px auto 0px;
+	    max-width: 960px;
+	    font-family: Arial, sans-serif;
+        background-color:#9fc6e0;
+        color: crimson;
+        
+    }
+    
+    
+    ul {
+			0%{
+				background:00CAE9;
+				color:00CAE9;
+				transform:scale(1,1) rotateY(0deg);
+			}
+			50%{
+				background:#00CAE9;
+				color:#ff0;
+				transform:scale(2,2) rotateY(360deg);
+			}
+			100%{
+				background:#888;
+				color:#fff;
+				transform:scale(1,1) rotateY(0deg);
+			}
+		}
+
+		.btnan{
+			background:#888;
+			display:inline-block;
+			padding:10px;
+			text-decoration: none;
+			font-family: helvetica;
+			color:#fff;
+			font-size:20px;
+		}
+		
+		.btnan:hover{
+			animation:enlarge 6s linear infinite;
+			background:#f00;
+			color:#ff0;
+			transform:scale(2,2);
+		}
+        
+        
+        nav {
+            position: center;
+            padding: 20px;
+}
+        
+        div {
+  width: 800px;
+  padding: 40px;
+  border: 5px solid gray;
+  margin: 0;
+background-color: black;
+}
+       #one{
+    font-family: 'Impact';
+    color: red;
+    font-size: 25px;
+    box-sizing: content-box;
+           
+           
+}
+#two{
+    font-family: 'Times New Roman';
+    color: blue;
+    font-size: 50px;
+}
+        iframe{
+           
+        }
+          
+        
+	</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+               <a href="index.html" class="btnan"><i class="fa fa-"></i> Home</a>
+        		<a href="work.html" class="btnan"><i class="fa fa-"></i>Work</a> 
+                
+            </ul>
+        </nav>
+    </header>
+      <img src="assets/Suzanne-pic2.jpg"width=35%>
+    <img src="assets/collins.jpg"width=35%>
+<div>
+    <img src="assets/the-hunger-games-catching-fire.jpg"width=100%>
+        <p id="one"><p>In 1991, Suzanne Collins began her professional career writing for children’s television. She worked on the staffs of several Nickelodeon shows, including the Emmy-nominated hit Clarissa Explains it All and The Mystery Files of Shelby Woo. For preschool viewers, she penned multiple stories for the Emmy-nominated Little Bear and Oswald. She also co-wrote the Rankin/​Bass Christmas special, Santa, Baby! with her friend, Peter Bakalian, which was nominated for a WGA Award in Animation. Most recently she was the Head Writer for Scholastic Entertainment’s Clifford’s Puppy Days,and a freelancer on Wow! Wow! Wubbzy! While working on a Kids WB show called Generation O! she met children’s author and illustrator James Proimos, who talked her into giving children’s books a try.</p>
+
+         <p id="two"><p>Her next series, The Hunger Games Trilogy, is an international bestseller. The Hunger Games has spent over six years to date on The New York Times bestseller list since publication in September 2008, and has also appeared consistently on USA Today and Publishers Weekly bestseller lists. It has been sold into 56 territories in 51 languages. In 2010 Collins was named to the TIME 100 list as well as the Entertainment Weekly Entertainers of the Year list.</p>
+    <iframe src="https://giphy.com/embed/i2wtFhCb0Ba5G" width="480" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    <iframe src="https://giphy.com/embed/aq0rUnGHhRPhe" width="480" height="180" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $('#Mobilenav').click(function(){
+        $('nav').toggle();
+    });
+    $(window).resize(function(){
+        if(window.innerWidth > 575){
+            $('nav').show();
+        };
+    });
+</script>
+<footer>
+        <p>&copy; 2019. All rights reserved. </p>
+    </footer>
+</body>
+</html>
